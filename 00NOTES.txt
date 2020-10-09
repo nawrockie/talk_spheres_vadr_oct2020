@@ -17,5 +17,9 @@ TODO:
 - Spruce up first slides so that not all text
 - Send either PDF of powerpoint to Lydia by early next week
 
+=============================
+EPN, Fri Oct  9 15:04:48 2020
 
-
+TODO:
+Breakdown page 14 of the ieb vadr presentation into two slides:
+one without arrows coming out of the indexer. 
