@@ -54,7 +54,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{slide}
 \begin{center}
-\large{\textbf{VADR assists GenBank indexers: each sequence PASSes or FAILs}}
+\textbf{VADR assists GenBank indexers: each sequence PASSes or FAILs}
 \end{center}
 
 \center{\includegraphics[width=9in]{figs/spheres-submission-schematic-2}}
@@ -64,7 +64,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{slide}
 \begin{center}
-\large{\textbf{VADR assists GenBank indexers: each sequence PASSes or FAILs}}
+\textbf{VADR assists GenBank indexers: each sequence PASSes or FAILs}
 \end{center}
 
 \center{\includegraphics[width=9in]{figs/spheres-submission-schematic-3}}
@@ -72,35 +72,20 @@
 \vfill
 \end{slide}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{slide}
-\begin{center}
-\Large{\textbf{VADR was enhanced for SARS-CoV-2 analysis}}
-\end{center}
-
-\begin{itemize}
-  \item Acceleration based on a blastn alignment, about 2s per sequence
-  \item Replacement of stretches of Ns with 'expected' nucleotides when
-    possible 
-  \item TODO: some stats on number of Ns in SARS-CoV-2 seqs
-\end{itemize}
-
-\vfill
-\end{slide}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{slide}
-\begin{center}
-\Large{\textbf{VADR was enhanced for SARS-CoV-2 analysis}}
-\end{center}
-
-\begin{itemize}
-  \item Acceleration based on a blastn alignment, about 2s per sequence
-  \item Replacement of stretches of Ns with 'expected' nucleotides when
-    possible 
-  \item TODO: some stats on number of Ns in SARS-CoV-2 seqs
-\end{itemize}
-
-\vfill
-\end{slide}
+%\begin{slide}
+%\begin{center}
+%\Large{\textbf{VADR was enhanced for SARS-CoV-2 analysis}}
+%\end{center}
+%
+%\begin{itemize}
+%  \item Acceleration based on a blastn alignment, about 2s per sequence
+%  \item Replacement of stretches of Ns with 'expected' nucleotides when
+%    possible 
+%  \item TODO: some stats on number of Ns in SARS-CoV-2 seqs
+%\end{itemize}
+%
+%\vfill
+%\end{slide}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{slide}
 \begin{center}
@@ -122,7 +107,8 @@
 \small
 \begin{enumerate}
 \item \textbf{Classification}: compare $S$ to all models to find best
-  matching model $M$ (currently only 1 SARS-CoV-2 model/RefSeq)
+  matching model $M$ \\ \emph{(currently only 1 SARS-CoV-2
+    model/RefSeq NC\_045512.2)}
 \item \textbf{Coverage determination}: search $M$ against $S$ to find 'hits'
 \item \textbf{Alignment}: align $S$ to $M$ and map features from $M$ to $S$
 \item \textbf{Protein validation}: compare predicted CDS in $S$ to proteins

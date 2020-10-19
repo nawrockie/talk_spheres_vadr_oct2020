@@ -23,3 +23,46 @@ EPN, Fri Oct  9 15:04:48 2020
 TODO:
 Breakdown page 14 of the ieb vadr presentation into two slides:
 one without arrows coming out of the indexer. 
+
+============================
+EPN, Tue Oct 13 22:00:02 2020
+
+- Go through slides and add as much powerpoint text as possible and
+  redo screenshots
+
+- counts on stretches of Ns
+
+- find real examples of failures to illustrate
+
+- talk through again
+
+- switch dengue to sars-cov-2
+
+===========================
+EPN, Mon Oct 19 11:00:31 2020
+
+From 3/6/20 email to Linda and Ilene
+and then further analysis:
+
+2. MT123292 
+   5' end: NEW: positions 2..23 do not match RefSeq but are a nearly
+   identical duplication of positions 27697-27719 (off by a single
+   extra U) 
+   3' end: Final 35nt are a duplicate of positions 15316..15350.
+ 
+----------------
+
+5. MT123292: fails with DUPLICATE_REGIONS, LOW_SIMILARITY_START and
+   LOW_SIMILARITY errors. The final 35 nt are a duplicate of NC_045512
+   positions 15316..15350, and the 5' end has extra sequence.
+ 
+5' end: 
+MT123292.1 caaga-acuuacucuccaauuuuucUUAAAGGUUUAUACCUUCCCAGGUA
+#=GC RF    .....A...................UUAAAGGUUUAUACCUUCCCAGGUA
+ 
+3' end: 
+                                                                      identical to NC_045512.1 15316..15350
+                                                                       vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+MT123292.1 AGAAUGACAAUAAGGUAGCGAAAUUCCUUGUCAACUAAUUAuugaccugcacgaaaggcgcaugccuaacaugcuuagaauuauggccucacuugu
+#=GC RF    AGAAUGACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.......................................................
+
